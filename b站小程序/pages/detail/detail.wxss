@@ -1,0 +1,80 @@
+.detail_info{
+  padding: 20rpx 0;
+  /* background-color: red */
+}
+.detail_info video{
+  width: 100%;
+}
+
+.detail_info .video-detail .author{
+  color: black
+}
+.detail_info .video-detail text{
+  font-size: 25rpx;
+  padding: 10rpx 10rpx;
+  color:red
+  }
+  .other{
+    padding: 15rpx 20rpx
+  }
+
+  .other navigator{
+    display: flex;
+    justify-content: space-between;
+  }
+  .other navigator .image-item{
+   flex: 4
+   
+  }
+  .other navigator .image-item image{
+    width: 100%;
+  }
+  .other navigator .right{
+    flex: 5
+    
+   }
+   .right{
+     font-size: 25rpx;
+     text-align: center;
+     /* vertical-align: middle */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     
+   }
+   .comment{
+     padding: 10rpx 15rpx;
+   }
+.infoBox{
+display: flex;
+padding: 15rpx 15rpx;
+border-bottom: 1px solid red
+
+}
+.infoBox .comment-user{
+  flex: 2;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ 
+}
+.infoBox .comment-user image{
+  width: 60%;
+  border-radius: 50%;
+}
+.infoBox .comment-info{
+  flex: 8
+}
+.comment-info{
+  display: flex;
+  padding: 10rpx 10rpx;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+.info-by{
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,17 @@
+<view class='mytitle'>
+<view class="logo">
+<image src="../icon/logo.png"></image>
+
+</view>
+<view class="info">
+<view class="searchicon">
+<image src="../icon/search.png"></image>
+</view>
+<view class="usericon">
+<image src="../icon/user.png"></image>
+</view>
+<view class="download">
+下载app
+</view>
+</view>
+</view>

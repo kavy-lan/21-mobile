@@ -1,0 +1,42 @@
+.mytitle{
+  display: flex;
+  padding: 20rpx 15px;
+  justify-content: space-between;
+  background-color:white
+}
+.logo{
+  flex: 6
+}
+.logo image{
+  width: 150rpx;
+  height: 60rpx;
+
+}
+.info{
+flex: 4;
+display: flex;
+/* justify-content: space-between; */
+font-size: 30rpx;
+align-items: center;
+color: #fff
+}
+.info image{
+  width: 60rpx;
+  height: 60rpx;
+  }
+  .searchicon{
+    flex: 2
+  }
+.usericon{
+  flex: 2
+}
+  .info .download{
+    flex: 6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    /* width: 80rpx; */
+    height: 60rpx;
+    background-color: pink;
+    border-radius: 10rpx;
+  }
